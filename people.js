@@ -10,7 +10,7 @@ const hobbiesFun = require("./hobbies");
 
 const combineNamesHobbies = () => {
   const { firstName, secondName } = fullNameFun("Emanuele", "Zuppardo");
-  const hobbies = hobbiesFun(
+  const { hobbies } = hobbiesFun(
     "Pallavolo",
     "Softair",
     "Palestra",
